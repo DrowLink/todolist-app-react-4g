@@ -12,6 +12,16 @@ flex-direction: column;
 width: 470px;
 }
 
+.button1 {
+    visibility: hidden;
+    max-height: 40px;
+    
+}
+
+li:hover > .button1 {
+    visibility: visible;
+};
+
 /* 
 
     You can write your own styles here...
